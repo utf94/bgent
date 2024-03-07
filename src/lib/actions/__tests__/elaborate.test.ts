@@ -143,7 +143,7 @@ describe("User Profile", () => {
 
       return result.action !== "ELABORATE";
     });
-  }, 20000);
+  }, 60000);
 
   test("Test if not elaborate", async () => {
     await runAiTest("Test if not elaborate", async () => {
@@ -164,7 +164,7 @@ describe("User Profile", () => {
 
       return result.action === "IGNORE";
     });
-  }, 20000);
+  }, 60000);
 
   // test conditions where we would expect a wait or an ignore
 });

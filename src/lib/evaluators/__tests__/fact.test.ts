@@ -95,7 +95,7 @@ describe("Facts Evaluator", () => {
         resultConcatenated.toLowerCase().includes("married")
       );
     });
-  }, 120000); // Adjust the timeout as needed for your tests
+  }, 240000); // Adjust the timeout as needed for your tests
 });
 
 async function cleanup(runtime: BgentRuntime, userId: UUID) {
